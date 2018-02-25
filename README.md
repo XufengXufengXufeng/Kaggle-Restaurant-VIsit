@@ -14,7 +14,7 @@ the good_features notebook has my features concatenated with public kernel featu
 
 the nn_model_with_cat and nn_model_with_dayofquarter notebooks are my attempts to create an easy nn with embedding layers.
 
-the nn_model_with_kernel data has the refined networks. I also tried to compare models with dropout and batch normalization, as well as 1d convolution layers. I added custmized learning rate modual with which I can change learning rate on the go. I wrote my own batches, as the model requires multiples inputs (categorical and numerical). I don't have a GPU computer, so for performance reason, I wrote my own loss recorders that randomly select parts of validation data on every round of training.
+the nn_model_with_kernel data has the refined networks. I also tried to compare models with dropout and batch normalization, as well as 1d convolution layers. I added custmized learning rate modual with diminishing learning rate. I wrote my own batches, as the model requires multiples inputs (categorical and numerical). I don't have a GPU computer, so for performance reason, I wrote my own loss recorders that randomly select parts of validation data on every round of training.
 
 ## Files missing
 There are several files that exceed 100 mega bytes which couldn't be pushed to the github. Meanwhile, this repository is a convenient code notes loaction for my own use, as the nn class is quite complex to format.
